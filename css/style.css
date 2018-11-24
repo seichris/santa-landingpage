@@ -67,7 +67,11 @@ padding: 10vh;
   text-align: center;
   top: 50%;
   padding: 40px;
+}
 
+#header-box img {
+  width: 100%;
+  height: auto;
 }
 
 #header h1 {
