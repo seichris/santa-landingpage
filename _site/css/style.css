@@ -50,10 +50,9 @@ padding: 10vh;
 }
 
 #header {
-  background: url("../img/mountains.svg");
+  background: url("../img/lamas.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   padding: 15vh 0 15vh 10vh;
   z-index: 2;
 }
@@ -67,11 +66,15 @@ padding: 10vh;
   text-align: center;
   top: 50%;
   padding: 40px;
+}
 
+#header-box img {
+  width: auto;
+  height: 20%;
 }
 
 #header h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 @media only screen and (max-width: 1660px) {
