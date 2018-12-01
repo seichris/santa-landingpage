@@ -98,6 +98,14 @@ h1 span {
 .projectimages div img {
 }
 
+a:visited {
+    color: #3b4351;
+}
+
+a.active, a:active, a:focus, a:hover {
+    color: #3b4351;
+}
+
 .headerbutton:hover {
     background: #eff3f9 !important;
 }
@@ -117,7 +125,7 @@ h1 span {
     height: 3rem;
     line-height: 1.2rem;
     outline: 0;
-    padding: .25rem .4rem;
+    padding: 0.8rem .4rem;
     text-align: center;
     text-decoration: none;
     transition: background .2s,border .2s,box-shadow .2s,color .2s;
