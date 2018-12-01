@@ -134,7 +134,7 @@ a.active, a:active, a:focus, a:hover {
     -ms-user-select: none;
     user-select: none;
     vertical-align: middle;
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .btn:focus, .btn:hover {
