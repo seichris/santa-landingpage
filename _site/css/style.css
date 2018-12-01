@@ -91,7 +91,10 @@ padding: 10vh;
   text-align: center;
   top: 50%;
   margin-top: 10%;
-  padding: 40px;
+  padding-top: 4rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
   position: relative;
   z-index: 1;
 }
