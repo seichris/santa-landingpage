@@ -9,6 +9,13 @@ body {
   margin-left: -20px;
 }
 
+.sparkles {
+  background-image: url("https://raw.githubusercontent.com/VolcaTech/eth2-assets/master/images/sparkles.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+}
+
 h1 {
   margin-bottom: 0.25em;
 }
@@ -133,7 +140,6 @@ a.active, a:active, a:focus, a:hover {
     background: #fff;
     border: .05rem solid #3b4351;
     border-radius: .2rem;
-    box-shadow: 4px 4px 50px rgba(188, 170, 162, 0.5);
     color: #3b4351;
     cursor: pointer;
     display: inline-block;
@@ -154,9 +160,9 @@ a.active, a:active, a:focus, a:hover {
 }
 
 .btn:focus, .btn:hover {
-    background: rgba(59, 67, 81, 0.05);
     border-color: #3b4351;
     text-decoration: none;
+    box-shadow: 4px 4px 50px rgba(188, 170, 162, 0.5);
 }
 
 .btn.btn-link {
