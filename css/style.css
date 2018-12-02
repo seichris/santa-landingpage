@@ -1,5 +1,5 @@
 section {
-  background-color: #fff;
+  background-color: rgb(71, 77, 91);
   z-index: 1;
   position: relative;
 }
@@ -11,6 +11,10 @@ body {
 
 h1 {
   margin-bottom: 0.25em;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: rgb(76, 217, 100);
 }
 
 .mission-heading h1 {
