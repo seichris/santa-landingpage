@@ -117,16 +117,30 @@ padding: 10vh;
 h1 span {
     font-size: 1.8em;
 }
-
-.projectimages div img {
+/*
+.flowbackground {
+  background-color: #636977;
+  border-radius: 5px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 10px;
 }
 
+.flowbackground h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.flowbackground p:nth-last-child(1) {
+  padding-bottom: 10px;
+}
+*/
 a:visited {
-    color: #3b4351;
+    color: inherit;
 }
 
 a.active, a:active, a:focus, a:hover {
-    color: #3b4351;
+    color: #fff;
 }
 
 .headerbutton:hover {
