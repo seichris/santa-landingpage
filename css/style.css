@@ -234,7 +234,7 @@ h1 span {
 }
 */
 a:visited {
-    color: inherit;
+    color: #fff;
 }
 
 a.active, a:active, a:focus, a:hover {
@@ -249,10 +249,10 @@ a.active, a:active, a:focus, a:hover {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: #fff;
-    border: .05rem solid #3b4351;
-    border-radius: .2rem;
-    color: #3b4351;
+    background: #4CD964;
+    border: .05rem solid #4CD964;
+    border-radius: 10px;
+    color: #fff;
     cursor: pointer;
     display: inline-block;
     font-size: 1.3rem;
@@ -272,15 +272,16 @@ a.active, a:active, a:focus, a:hover {
 }
 
 .btn:focus, .btn:hover {
-    border-color: #3b4351;
-    color: #555f70;
+    background-color: #4CD964;
+    border-color: #4CD964;
+    color: #fff;
     text-decoration: none;
     box-shadow: 4px 4px 50px rgba(188, 170, 162, 0.5);
 }
 
 .btn.active, .btn:active {
     background: #edfff0;
-    border-color: #edfff0;
+    border-color: #4CD964;
     color: #3b4351;
     text-decoration: none;
 }
