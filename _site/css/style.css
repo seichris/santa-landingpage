@@ -57,6 +57,14 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+.projectlogo {
+    height: auto !important;
+    max-width: 100%;
+  }
+.horizontalprojectlogo {
+    height: auto !important;
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1660px) {
@@ -69,6 +77,14 @@ body {
     #nav-right a:nth-child(-n+3) {
         display: none;
     }
+}
+
+.projectlogo {
+  height: 50%;
+}
+
+.horizontalprojectlogo {
+width: 80%;
 }
 
 .venezuelansinneed {
