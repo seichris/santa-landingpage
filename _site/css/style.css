@@ -259,7 +259,7 @@ a.active, a:active, a:focus, a:hover {
     height: 3rem;
     line-height: 1.2rem;
     outline: 0;
-    padding: 0.8rem .4rem;
+    padding: .8rem .8rem;
     text-align: center;
     text-decoration: none;
     transition: background .2s,border .2s,box-shadow .2s,color .2s;
