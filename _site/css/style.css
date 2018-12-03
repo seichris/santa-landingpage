@@ -42,8 +42,9 @@ body {
   h2, h3, h4 {
     font-size: 1.2rem;
   }
-  .worksonmobile {
-    margin-top: -2%;
+  .airdropcampaign {
+    font-size: 0.8rem;
+    font-weight: 400;
   }
   .venezuelansinneed {
     font-size: 1.5rem;
@@ -64,6 +65,17 @@ body {
 .horizontalprojectlogo {
     height: auto !important;
     max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+.btn {
+    font-size: 1rem !important;
+    height: 2rem !important;
+    line-height: .4rem !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px !important;
+    margin-top: 5%;
+    font-weight: 500;
   }
 }
 
@@ -291,9 +303,9 @@ a.active, a:active, a:focus, a:hover {
 }
 
 #campaignshot {
-  padding-top: 3%;
+  margin-top: 3%;
     padding-right: 10%;
-    padding-bottom: 10%;
+    margin-bottom: 10%;
     padding-left: 10%;
 }
 
