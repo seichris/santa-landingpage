@@ -141,14 +141,17 @@ h6 {
   z-index: 3;
 }
 
-.navbar a {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 @media only screen and (max-width: 840px) {
   .navbar a {
-      padding-right: none;
+      padding-right: none !important;
+      padding-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 841px) {
+  .navbar a {
+      padding-right: 10px;
+      padding-left: 10px;
   }
 }
 
