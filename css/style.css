@@ -58,7 +58,7 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-.projectlogo {
+.verticalprojectlogo {
     height: auto !important;
     max-width: 100%;
   }
@@ -85,18 +85,12 @@ body {
     }
 }
 
-@media only screen and (max-width: 1080px) {
-    #nav-right a:nth-child(-n+3) {
-        display: none;
-    }
-}
-
-.projectlogo {
+.verticalprojectlogo {
   height: 50%;
 }
 
 .horizontalprojectlogo {
-width: 80%;
+  height: 30%;
 }
 
 .venezuelansinneed {
@@ -150,6 +144,12 @@ h6 {
 .navbar a {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+@media only screen and (max-width: 840px) {
+  .navbar a {
+      padding-right: none;
+  }
 }
 
 .navbar a:hover {
