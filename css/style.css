@@ -23,6 +23,21 @@ body {
   background-repeat: no-repeat;
 }
 
+.sparklesnifty {
+  background-image: url("../img/sparkles.png");
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  height: 100%;
+  margin: auto;
+}
+
+.sparkletreenifty {
+  margin: auto;
+  background-image: url("https://raw.githubusercontent.com/VolcaTech/eth2-assets/master/images/sparkles_tree.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 600px) {
   .sparkles {
     background-position: 200% 200%;
@@ -30,8 +45,15 @@ body {
   .sparkletree {
     background-position: 200% 200%;
   }
+  .sparklesnifty {
+    background-position: 0% 0%;
+    background-image: url("../img/pixel.png");
+  }
+  .sparkletreenifty {
+    background-position: 480% 300%;
+  }
   .headertext {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     padding-top: 20%;
     font-size: 2rem;
     color:white;
@@ -49,6 +71,9 @@ body {
   .venezuelansinneed {
     font-size: 1.5rem;
     color: #fff;
+  }
+  .whatsanifty {
+    font-size: 1.5rem;
   }
   .joinourcharity {
     font-size: 1.5rem;
@@ -94,12 +119,20 @@ body {
 }
 
 .venezuelansinneed {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   font-size: 3rem;
 }
 
+.whatsanifty {
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
 .joinourcharity {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   font-size: 3rem;
 }
 
@@ -146,6 +179,10 @@ h6 {
       padding-right: none !important;
       padding-left: 10px;
   }
+  .sparklesnifty {
+    background-position: 0% 0%;
+    background-image: url("../img/pixel.png");
+  }
 }
 
 @media only screen and (min-width: 841px) {
@@ -159,11 +196,11 @@ h6 {
     text-decoration: none;
 }
 
-.navbar a > img{
+.navlink {
     -webkit-filter: grayscale(100%);
 }
 
-.navbar a:hover > img {
+.navlink:hover {
     -webkit-filter: grayscale(0%);
 }
 
@@ -221,7 +258,7 @@ h6 {
 }
 
 .headertext {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   margin-top: 5%;
   font-size: 3rem;
   color:white;
@@ -249,7 +286,7 @@ h1 span {
 }
 */
 a:visited {
-    color: #fff;
+    color: #fff !important;
 }
 
 a.active, a:active, a:focus, a:hover {
