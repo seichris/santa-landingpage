@@ -185,12 +185,10 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
 }
 
 #givethlogo {
-  background: url("../img/giveth_small_white.png");
+  background: url("../img/giveth_small.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -201,8 +199,6 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
 }
 
 #kudoslogo {
@@ -232,7 +228,6 @@ body {
 
 .projectimages div {
   margin-top: 3rem;
-  padding-top: 1.2rem;
 }
 
 .howdoesitwork {
