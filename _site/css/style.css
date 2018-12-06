@@ -97,8 +97,10 @@ body {
     color: #fff;
   }
   .projectimages div {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
   }
 .verticalprojectlogo {
     height: auto !important;
@@ -166,13 +168,39 @@ body {
     font-size: 0.8rem;
   }
 }
-
+/*
 .verticalprojectlogo {
   height: 50%;
+  width: auto;
 }
 
 .horizontalprojectlogo {
   height: 30%;
+  width: auto;
+}
+*/
+
+/* link project logos here */
+
+#volcalogo {
+  background: url("../img/v-logo-white.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#givethlogo {
+  background: url("../img/giveth_small_white.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#openmoneylogo {
+  background: url("../img/openmoney.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .howdoesitwork {
