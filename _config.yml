@@ -1,3 +1,17 @@
+plugins:
+  - jekyll-seo-tag
+
 title: Crypto Xmas for Venezuela
 description: A Crypto Christmas Fundraiser for Venezuela
+
 url: https://cryptoxmas.xyz/
+twitter:
+  username: crypto_xmas
+logo: /img/Wreath.png
+social:
+  name: Crypto Xmas
+  links:
+    - https://twitter.com/crypto_xmas
+    - https://t.me/CryptoXmas
+    - https://github.com/VolcaTech/cryptoxmas.xyz
+    - https://app.cryptoxmas.xyz/
