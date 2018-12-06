@@ -374,13 +374,13 @@ h6 {
 }
 
 .headertext {
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   margin-top: 5%;
   font-size: 3rem;
   color:white;
 }
 
-h1 span {
+.largeheading {
     font-size: 3rem;
 }
 /*
