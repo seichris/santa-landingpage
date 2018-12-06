@@ -285,7 +285,7 @@ h6 {
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 0;
-    padding-left: 4vh;
+    padding-left: 3vh;
   }
 }
 
@@ -461,13 +461,6 @@ a.active, a:active, a:focus, a:hover {
 
 .btn.btn-link.active, .btn.btn-link:active, .btn.btn-link:focus, .btn.btn-link:hover {
     color: #3b4351;
-}
-
-#campaignshot {
-  margin-top: 3%;
-    padding-right: 10%;
-    margin-bottom: 10%;
-    padding-left: 10%;
 }
 
 .history {
