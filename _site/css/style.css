@@ -217,13 +217,20 @@ body {
 }
 
 #bitcoinvenezuelalogo {
-  background: url("../img/btcven.png");
+  background: url("../img/btcven_white.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   margin-bottom: .5rem;
   padding-left: .8rem;
   padding-right: .8rem;
+}
+
+#XYOnetworklogo {
+  background: url("../img/xyonetwork.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .projectimages div {
