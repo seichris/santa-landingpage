@@ -201,7 +201,7 @@ body {
   background-position: center;
 }
 
-#kudoslogo {
+#gitcoinlogo {
   background: url("../img/gitcoin_white.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -226,11 +226,35 @@ body {
   padding-right: .8rem;
 }
 
+#kudoslogo {
+  background: url("../img/kudos_white.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 2.2rem;
+}
+
+#trustwalletlogo {
+  background: url("../img/trustwalletlogo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 2.2rem;
+}
+
 #XYOnetworklogo {
   background: url("../img/xyonetwork.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+#bountynetworklogo {
+  background: url("../img/bountiesnetworklogo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 2.4rem;
 }
 
 .projectimages div {
