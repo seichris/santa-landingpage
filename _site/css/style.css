@@ -111,6 +111,9 @@ body {
       max-width: 40%;
       margin: 0.1rem !important;
     }
+    .footersection {
+      padding-bottom: 8px;
+    }
 }
 
 .santaimage {
