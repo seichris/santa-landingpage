@@ -84,6 +84,8 @@ body {
   }
   .howdoesitwork {
     margin-bottom: 5% !important;
+    font-size: 0.8rem;
+    font-weight: 400;
   }
   .joinourcharity {
     font-size: 1.5rem;
@@ -137,7 +139,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 356px) {
+@media only screen and (max-width: 633px) {
   .githublogo {
     display: none;
   }
@@ -275,7 +277,7 @@ body {
 }
 
 .howdoesitwork {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 .venezuelansinneed {
