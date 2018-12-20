@@ -272,6 +272,14 @@ body {
   margin-top: 2.4rem;
 }
 
+#nervoslogo {
+  background: url("../img/NervosLogo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 1.8rem;
+}
+
 .projectimages div {
   margin-top: 3rem;
 }
